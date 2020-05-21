@@ -17,5 +17,6 @@ while row_index < src.count do
   lowest_temperature_results << lowest_temperature
   row_index += 1 
 end
+end
 lowest_temperature_results
 
