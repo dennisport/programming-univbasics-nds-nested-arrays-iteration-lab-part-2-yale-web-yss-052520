@@ -10,7 +10,7 @@ while row_index < src.count do
   
   while element_index < src[row_index].count do
     if src[row_index][element_index] > lowest_temperature
-    lowest_temperature = src[row_index][element_index].min
+    lowest_temperature = src[row_index][element_index]
   end
     element_index += 1 
   end
